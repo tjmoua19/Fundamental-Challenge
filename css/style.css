@@ -4,6 +4,8 @@
 
 
 body{
+	max-width: 375px;
+	margin: auto;
 	background-color: rgba(0, 151, 19, 0.1)
 }
 
@@ -24,8 +26,8 @@ body{
 .location{
 	position: absolute;
 	text-align: center;
-	margin-top: 50%;
-	margin-left: 33%;
+	margin-top: 35%;
+	margin-left: 24%;
 	font-size: 18px;
 	color: black;
 	font-weight: bold;
@@ -33,7 +35,7 @@ body{
 
 .centered {
 	position: absolute;
-	top: 52%;       
+	top: 40%;       
 	left: 52%;
 	transform: translate(-52%, -48%);
 	color: rgba(91, 91, 91, 1);
@@ -67,16 +69,15 @@ body{
 }
 
 .question{
-	position: absolute;
-	top: %;				
+	position: absolute;			
 	left: 50%;
 	font-size: 30px;
 	background-attachment: fixed;
 }
 
 .route{
-	font-size: 12px;
-	margin-bottom: 3%;
+	font-size: 10px;
+	margin: auto;
 }
 
 .bus-lines{
@@ -85,13 +86,14 @@ body{
 	width: 80px;
 	text-align: center;
 	border-radius: 4px;
-	padding: 5px 19px;
+	padding: 7px 10px;
+	margin-right: 5%;
 	color: white;
 	background-color: rgba(46,139,86)
 }
 
 .bus-departure{
-	font-size: 16px;
+	font-size: 13px;
 	margin-left: 27%;
 	margin-top: 5%;
 	margin-bottom: auto;
@@ -99,7 +101,7 @@ body{
 }
 
 .bus-times{
-	font-size: 12px;
+	font-size: 11px;
 	margin-left: 27%;
 	margin-top: ;
 	color: rgba(149, 149, 149, 1);
@@ -112,39 +114,105 @@ body{
 }
 
 .frequency{
-	font-size: 14px;
-	margin-top: 6%;
+	font-size: 12px;
+	margin-top: 14%;
 	position: relative;
 	float: right;
 	font-weight: lighter;
 }
 
+.frequency2{
+	font-size: 12px;
+	margin-left: auto;
+	margin-bottom: 18%;
+	position: relative;
+	float: right;
+	font-weight: lighter;
+}
+
+.frequency3{
+	font-size: 12px;
+	margin-top: 11.5%;
+	position: relative;
+	float: right;
+	font-weight: lighter;
+}
+
+.frequency4{
+	font-size: 12px;
+	margin-top: 11.5%;
+	position: relative;
+	float: right;
+	font-weight: lighter;
+}
+
+.frequency5{
+	font-size: 12px;
+	margin-top: auto%;
+	position: relative;
+	float: right;
+	font-weight: lighter;
+}
+
+.frequency6{
+	font-size: 12px;
+	margin-top: 11%;
+	position: relative;
+	float: right;
+	font-weight: lighter;
+}
+
+.frequency7{
+	font-size: 12px;
+	margin-top: 11.5%;
+	position: relative;
+	float: right;
+	font-weight: lighter;
+}
+
+.frequency8{
+	font-size: 12px;
+	margin-top: auto;
+	position: relative;
+	float: right;
+	font-weight: lighter;
+}
+
+.frequency9{
+	font-size: 12px;
+	margin-top: auto;
+	position: relative;
+	float: right;
+	font-weight: lighter;
+}
+
+
 @media screen and (max-width: 575px) {
   .bus {
     width: 40px;
-    left:80%;
-    top: 25%;
+    left:78%;
+    top: 17%;
   }
 
 @media screen and (max-width: 575px) {
   .bus2 {
     width: 40px;
-    left:31%;
-    top: 33%;
+    left:34%;
+    top: 2%;
   }
 
  @media screen and (max-width: 575px) {
   .bus3{
     width: 40px;
-    left:65%;
-    top: 12%;
+    left:62%;
+    top: 9%;
   }
   
  @media screen and (max-width: 575px) {
   .me{
     width: 40px;
-    left:47%;
-    top: 25%;
+    left:46%;
+    top: 17%;
   }
 
 
