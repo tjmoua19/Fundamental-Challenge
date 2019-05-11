@@ -79,19 +79,18 @@ body{
 	margin-bottom: 3%;
 }
 
-h2{
+.bus-lines{
 	float: left;
 	border: 10px;
-	width: 85px;
+	width: 80px;
 	text-align: center;
 	border-radius: 4px;
-	padding: 15px 25px;
-	margin-top: 22%%;
+	padding: 5px 19px;
 	color: white;
 	background-color: rgba(46,139,86)
 }
 
-h3{
+.bus-departure{
 	font-size: 16px;
 	margin-left: 27%;
 	margin-top: 5%;
@@ -99,20 +98,20 @@ h3{
 	word-spacing: normal;
 }
 
-h4{
+.bus-times{
 	font-size: 12px;
 	margin-left: 27%;
+	margin-top: ;
 	color: rgba(149, 149, 149, 1);
-	word-spacing: normal;
 }
 
-h5{
+.distance{
 	font-size: 11px;
 	margin-left: 27%;
 	word-spacing: normal;
 }
 
-p{
+.frequency{
 	font-size: 14px;
 	margin-top: 6%;
 	position: relative;
@@ -146,5 +145,11 @@ p{
     width: 40px;
     left:47%;
     top: 25%;
+  }
+
+
+ @media screen and (max-width: 575px) {
+  .container{
+    
   }
  
