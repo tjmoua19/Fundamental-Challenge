@@ -10,17 +10,18 @@ body{
 }
 
 .container{
-	font-family: sans-serif;
+	font-family: Roboto;
 	border: 1px #ccc solid;
 	padding: 10px;
 	padding-left: 25px;
 	border-radius: 6px;
-	width: 90%;
-	left: 2%;
+	width: 57%;
+	position: absolute;
 	right: auto;
-	position: relative;
 	background: white;
 	margin: 10px 15px;
+	margin-top: 56.5%;
+	margin-left: 5%;
 }
 
 .location{
@@ -33,40 +34,41 @@ body{
 	font-weight: bold;
 }
 
-.centered {
-	position: absolute;
-	top: 40%;       
-	left: 52%;
-	transform: translate(-52%, -48%);
-	color: rgba(91, 91, 91, 1);
-	font-size: 18px;
-}
-
-.map{
-	object-fit: cover;
-	width:100%;
-	margin-left: auto;
-	border-radius: 6px;
-	display: block;
-	box-shadow: 0 5px 4px -2px gray; 
-	position: relative; 
-}
-
 .bus{
 	position: absolute;
+	margin-left: 55%;
+	margin-top: 92px;
 }
 
 .bus2{
 	position: absolute;
+	margin-top: 2%;
+	margin-left: 18%;
 }
 
 .bus3{
 	position: absolute;
+	margin-left: 41%;
+	margin-top: 2%;
 }
 
 .me{
 	position: absolute;
+	margin-top: 92px;
+	margin-left: 30%;
 }
+
+.map{
+	object-fit: cover;
+	width:65%;
+	margin-left: 1%;
+	border-radius: 6px;
+	display: block;
+	box-shadow: 0 5px 4px -2px gray; 
+	position: absolute; 
+	margin-bottom: auto;
+}
+
 
 .question{
 	position: absolute;			
@@ -86,7 +88,7 @@ body{
 	width: 80px;
 	text-align: center;
 	border-radius: 4px;
-	padding: 7px 10px;
+	padding: 7px 8px;
 	margin-right: 5%;
 	color: white;
 	background-color: rgba(46,139,86)
@@ -148,7 +150,7 @@ body{
 
 .frequency5{
 	font-size: 12px;
-	margin-top: auto%;
+	margin-top: auto;
 	position: relative;
 	float: right;
 	font-weight: lighter;
@@ -185,39 +187,3 @@ body{
 	float: right;
 	font-weight: lighter;
 }
-
-
-@media screen and (max-width: 575px) {
-  .bus {
-    width: 40px;
-    left:78%;
-    top: 17%;
-  }
-
-@media screen and (max-width: 575px) {
-  .bus2 {
-    width: 40px;
-    left:34%;
-    top: 2%;
-  }
-
- @media screen and (max-width: 575px) {
-  .bus3{
-    width: 40px;
-    left:62%;
-    top: 9%;
-  }
-  
- @media screen and (max-width: 575px) {
-  .me{
-    width: 40px;
-    left:46%;
-    top: 17%;
-  }
-
-
- @media screen and (max-width: 575px) {
-  .container{
-    
-  }
- 
