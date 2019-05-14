@@ -1,235 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BusyBus</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
 
-	<nav>
-		<h1>BusyBus</h1>
-	</nav>
+<section class="container">
+  <div class="bus-route">
+    <h1>Eastbound</h1>
+  <ul>
+    <li>
+      <ul class="bus">
+        <li class="bus-number">60</li>
+        <li class="street">Randolph/Harbor Dr.</li>
+        <li class="arrival">Arrival: 08:45  Departure: 9:00</li>
+        <li class="eta">Every 20 mins</li>
+        <li class="distance">0.7 mi.</li>
+      </ul>
+    </li>
+  </ul>
 
-   	<form action="action">
-		<input type="search" name="places" value="Washington & State"><br>
-	</form>
+  <ul>
+    <li>
+      <ul class="bus">
+        <li class="bus-number">124</li>
+        <li class="street">Navy Pier</li>
+        <li class="arrival">Arrival: 10:45  Departure: 10:55</li>
+        <li class="eta">Every 10 mins</li>
+        <li class="distance">0.9 mi.</li>
+      </ul>
+    </li>
+  </ul>
 
-	<div class="images">
-		<img class="map" src="images/map.png">
-    	<img class="bus" src="images/bus.png">
-    	<img class="bus2" src="images/bus.png">
-    	<img class="bus3" src="images/bus.png">
-    	<img class="me" src="images/me.png">
-    </div>
+<div class="bus-route">
+    <h1>Northbound</h1>
+  <ul>
+    <li>
+      <ul class="bus">
+        <li class="bus-number">151</li>
+        <li class="street">Devon/Clark</li>
+        <li class="arrival">Arrival: 12:45  Departure: 13:01</li>
+        <li class="eta">Every 16 mins</li>
+        <li class="distance">0.3 mi.</li>
+      </ul>
+    </li>
+  </ul>
+<div class="bus-route">
+    <h1>Southbound</h1>
+  <ul>
+    <li>
+      <ul class="bus">
+        <li class="bus-number">J14</li>
+        <li class="street">103rd/Stony Island</li>
+        <li class="arrival">Arrival: 8:00  Departure: 8:15</li>
+        <li class="eta">Every 15 mins</li>
+        <li class="distance">0.5 mi.</li>
+      </ul>
+    </li>
+  </ul>
 
-	<section class="container">
+  <ul>
+    <li>
+      <ul class="bus">
+        <li class="bus-number">124</li>
+        <li class="street">Navy Pier</li>
+        <li class="arrival">Arrival: 14:45  Departure: 14:55</li>
+        <li class="eta">Every 10 mins</li>
+        <li class="distance">1.2 mi.</li>
+      </ul>
+    </li>
+  </ul>
+<div class="bus-route">
+    <h1>Reroute</h1>
+  <ul>
+    <li>
+      <ul class="bus">
+        <li class="bus-number">6X</li>
+        <li class="street">Jackson Park Express</li>
+        <li class="arrival">Arrival: N/A  Departure: N/A</li>
+        <li class="eta">N/A</li>
+        <li class="distance">2.1 mi.</li>
+      </ul>
+    </li>
+  </ul>
+<div class="bus-route">
+    <h1>Out of Service</h1>
+  <ul>
+    <li>
+      <ul class="bus">
+        <li class="bus-number">4</li>
+        <li class="street">Cottage Grove</li>
+        <li class="arrival">Arrival: N/A  Departure: N/A</li>
+        <li class="eta">Resumes 12:10am</li>
+        <li class="distance">0.1 mi.</li>
+      </ul>
+    </li>
+  </ul>
 
-		<div class="route">
-			<h1>Eastbound</h1>
-		</div>
+  <ul>
+    <li>
+      <ul class="bus">
+        <li class="bus-number">20</li>
+        <li class="street">Madison</li>
+        <li class="arrival">Arrival: N/A  Departure: N/A</li>
+        <li class="eta">Resumes 12:10am</li>
+        <li class="distance">1.1 mi.</li>
+      </ul>
+    </li>
+  </ul>
 
-			<div class="bus-lines">
-				<h2>60</h2>
-			</div>
-
-			<div class="bus-departure">
-				<h3>Randolph/Harbor Dr</h3>
-			</div>
-
-			<div class="bus-times">
-				<h4>Arrival: 08:45  Departure: 9:05</h4>
-			</div>
-
-			<div class="distance">
-				<h5>0.7 mi.</h5>
-			</div>
-
-			<div class="frequency2">
-				<p>10 mins</p>
-			</div>
-
-			<div class="bus-lines">
-				<h2>124</h2>
-			</div>
-
-			<div class="bus-departure">
-				<h3>Navy Pier</h3>
-			</div>
-
-			<div class="bus-times">
-				<h4>Arrival: 9:30  Departure: 9:40</h4>
-			</div>
-
-			<div class="distance">
-				<h5>0.9 mi.</h5>
-			</div>
-			<hr>
-
-		<div class="frequency3">
-			<p>16 mins</p>
-		</div>
-
-		<div class="route">
-			<h1>Northbound</h1>
-		</div>
-			
-			<div class="bus-lines">
-				<h2>151</h2>
-			</div>
-
-			<div class="bus-departure">
-				<h3>Devon/Clark</h3>
-			</div>
-
-			<div class="bus-times">
-				<h4>Arrival: 10:30  Departure: 10:46</h4>
-			</div>
-			
-			<div class="distance">
-				<h5>0.8 mi.</h5>
-			</div>
-			<hr>	
-		
-		<div class="frequency4">
-			<p>15 mins</p>
-		</div>
-
-		<div class="route">
-			<h1>Southbound</h1>
-		</div>
-
-			<div class="bus-lines">
-				<h2>J14</h2>
-			</div>
-
-			<div class="bus-departure">
-				<h3>103rd/Stony Island</h3>
-			</div>
-
-			<div class="bus-times">
-				<h4>Arrival: 13:30  Departure: 13:45</h4>
-			</div>
-
-			<div class="distance">
-				<h5>0.6 mi.</h5>
-			</div>
-
-		<div class="frequency5">
-				<p>10 mins</p>
-		</div>
-
-			<div class="bus-lines">
-				<h2>124</h2>
-			</div>
-
-			<div class="bus-departure">
-				<h3>Navy Pier</h3>
-			</div>
-
-			<div class="bus-times">
-				<h4>Arrival: 14:50  Departure: 15:00</h4>
-			</div>
-
-			<div class="distance">
-				<h5>0.9 mi.</h5>
-			</div>
-			<hr>
-
-		<div class="frequency6">
-				<p>n/a</p>
-		</div>
-
-		<div class="route">
-				<h1>Reroute</h1>
-		</div>
-
-			<div class="bus-lines">
-				<h2>6x</h2>
-			</div>
-
-			<div class="bus-departure">
-				<h3>Jackson Park Express</h3>
-			</div>
-
-			<div class="bus-times">
-				<h4>Arrival: n/a  Departure: n/a</h4>
-			</div>
-
-			<div class="distance">
-				<h5>0.7 mi.</h5>
-			</div>
-			<hr>
-
-		<div class="frequency7">
-				<p>n/a</p>
-		</div>
-
-		<div class="route">
-				<h1>Out of Service</h1>
-		</div>
-					
-			<div class="bus-lines">
-				<h2>4</h2>
-			</div>
-					
-			<div class="bus-departure">
-				<h3>Cottage Grove</h3>
-			</div>
-
-			<div class="bus-times">
-				<h4>Resumes: 12:10</h4>
-			</div>
-
-			<div class="distance">
-				<h5>1.2 mi.</h5>
-			</div>
-			
-			<div class="frequency8">
-				<p>n/a</p>
-			</div>
-					
-			<div class="bus-lines">
-				<h2>20</h2>
-			</div>
-
-			<div class="bus-departure">
-				<h3>Madison</h3>
-			</div>
-
-			<div class="bus-times">
-				<h4>Resumes: 12:10</h4>
-			</div>		
-
-			<div class="distance">
-				<h5>1.1 mi.</h5>
-			</div>
-		
-			<div class="frequency9">
-				<p>n/a</p>
-			</div>
-					
-			<div class="bus-lines">
-				<h2>157</h2>
-			</div>
-					
-			<div class="bus-departure">
-				<h3>Streeterville/Taylor</h3>
-			</div>
-
-			<div class="bus-times">
-				<h4>Resumes: 6:00</h4>
-			</div>
-
-			<div class="distance">
-				<h5>1.5 mi.</h5>
-			</div>
-	</section>
+  <ul>
+    <li>
+      <ul class="bus">
+        <li class="bus-number">157</li>
+        <li class="street">Streeterville/Taylor</li>
+        <li class="arrival">Arrival: N/A  Departure: N/A</li>
+        <li class="eta">Resumes 6:00am</li>
+        <li class="distance">0.1 mi.</li>
+      </ul>
+    </li>
+  </ul>
+</section>
 </body>
 </html>
-
-
-
 
