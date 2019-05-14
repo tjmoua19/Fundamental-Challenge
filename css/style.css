@@ -2,20 +2,13 @@
  box-sizing: border-box;	
 }
 
-
-body{
-	max-width: 375px;
-	margin: auto;
-	background-color: rgba(0, 151, 19, 0.1)
-}
-
 .container{
 	font-family: Roboto;
 	border: 1px #ccc solid;
 	padding: 10px;
 	padding-left: 25px;
 	border-radius: 6px;
-	width: 57%;
+	width: 80%;
 	position: absolute;
 	right: auto;
 	background: white;
@@ -24,166 +17,60 @@ body{
 	margin-left: 5%;
 }
 
-.location{
-	position: absolute;
-	text-align: center;
-	margin-top: 35%;
-	margin-left: 24%;
-	font-size: 18px;
-	color: black;
-	font-weight: bold;
+.bus-route{
+	font-size: 20px;
+}
+.bus {
+	height: 90px;
+	width: 355px;
+	display: inline-block;
 }
 
-.bus{
-	position: absolute;
-	margin-left: 55%;
-	margin-top: 92px;
-}
-
-.bus2{
-	position: absolute;
-	margin-top: 2%;
-	margin-left: 18%;
-}
-
-.bus3{
-	position: absolute;
-	margin-left: 41%;
-	margin-top: 2%;
-}
-
-.me{
-	position: absolute;
-	margin-top: 92px;
-	margin-left: 30%;
-}
-
-.map{
-	object-fit: cover;
-	width:65%;
-	margin-left: 1%;
-	border-radius: 6px;
-	display: block;
-	box-shadow: 0 5px 4px -2px gray; 
-	position: absolute; 
-	margin-bottom: auto;
-}
-
-
-.question{
-	position: absolute;			
-	left: 50%;
+.bus-number {
+	width: 71px;
+	height: 63px;
 	font-size: 30px;
-	background-attachment: fixed;
-}
-
-.route{
-	font-size: 10px;
-	margin: auto;
-}
-
-.bus-lines{
-	float: left;
-	border: 10px;
-	width: 80px;
+	background-color: #519E59;
 	text-align: center;
-	border-radius: 4px;
-	padding: 7px 8px;
-	margin-right: 5%;
-	color: white;
-	background-color: rgba(46,139,86)
+	color: #ffffff;
+	padding-top: 10px;
+	float: left;
 }
 
-.bus-departure{
-	font-size: 13px;
-	margin-left: 27%;
-	margin-top: 5%;
-	margin-bottom: auto;
-	word-spacing: normal;
+.street {
+	font-size: 17px;
+	color: #000000;
+	padding-left: 10px;
+	display: inline-block;
 }
 
-.bus-times{
-	font-size: 11px;
-	margin-left: 27%;
-	margin-top: ;
-	color: rgba(149, 149, 149, 1);
+.arrival {
+	font-size: 14px;
+	color: #959595;
+	padding-left: 10px;
+	display: inline-block;
 }
 
-.distance{
-	font-size: 11px;
-	margin-left: 27%;
-	word-spacing: normal;
-}
-
-.frequency{
-	font-size: 12px;
-	margin-top: 14%;
-	position: relative;
-	float: right;
+.eta {
+	font-size: 14px;
+	width: 20%;
+	color: #000000;
 	font-weight: lighter;
+  	padding-bottom:55px;
+  	padding-right: 20px;
+  	padding-left: 50px;
+ 	text-align: right;
+  	float: right;
+  	display: inline-block;
+}	
+
+.distance {
+	font-size: 12px;
+	color: #000000;
+	font-weight: lighter;
+	padding-left: 10px;
+	float: left;
+	display: inline-block;
 }
 
-.frequency2{
-	font-size: 12px;
-	margin-left: auto;
-	margin-bottom: 18%;
-	position: relative;
-	float: right;
-	font-weight: lighter;
-}
 
-.frequency3{
-	font-size: 12px;
-	margin-top: 11.5%;
-	position: relative;
-	float: right;
-	font-weight: lighter;
-}
-
-.frequency4{
-	font-size: 12px;
-	margin-top: 11.5%;
-	position: relative;
-	float: right;
-	font-weight: lighter;
-}
-
-.frequency5{
-	font-size: 12px;
-	margin-top: auto;
-	position: relative;
-	float: right;
-	font-weight: lighter;
-}
-
-.frequency6{
-	font-size: 12px;
-	margin-top: 11%;
-	position: relative;
-	float: right;
-	font-weight: lighter;
-}
-
-.frequency7{
-	font-size: 12px;
-	margin-top: 11.5%;
-	position: relative;
-	float: right;
-	font-weight: lighter;
-}
-
-.frequency8{
-	font-size: 12px;
-	margin-top: auto;
-	position: relative;
-	float: right;
-	font-weight: lighter;
-}
-
-.frequency9{
-	font-size: 12px;
-	margin-top: auto;
-	position: relative;
-	float: right;
-	font-weight: lighter;
-}
