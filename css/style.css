@@ -2,13 +2,17 @@
  box-sizing: border-box;	
 }
 
+body{
+	max-width: 355;
+	background-color: rgba(0, 151, 19, 0.1)
+}
 .container{
 	font-family: Roboto;
 	border: 1px #ccc solid;
 	padding: 10px;
 	padding-left: 25px;
 	border-radius: 6px;
-	width: 80%;
+	width: 100%;
 	position: absolute;
 	right: auto;
 	background: white;
@@ -22,7 +26,7 @@
 }
 .bus {
 	height: 90px;
-	width: 355px;
+	width: 100%;
 	display: inline-block;
 }
 
@@ -34,34 +38,35 @@
 	text-align: center;
 	color: #ffffff;
 	padding-top: 10px;
+	margin-right:18px;
 	float: left;
 }
 
 .street {
 	font-size: 17px;
 	color: #000000;
-	padding-left: 10px;
 	display: inline-block;
 }
 
 .arrival {
 	font-size: 14px;
 	color: #959595;
-	padding-left: 10px;
-	display: inline-block;
+	padding-left: 88px;
+	display: block;
+	position: absolute;
 }
 
 .eta {
+	float: right;
 	font-size: 14px;
-	width: 20%;
+	width: 30%;
 	color: #000000;
 	font-weight: lighter;
-  	padding-bottom:55px;
   	padding-right: 20px;
-  	padding-left: 50px;
+  	padding-left: 40px;
+  	margin-right: 18px;
  	text-align: right;
-  	float: right;
-  	display: inline-block;
+ 	display: inline-block;
 }	
 
 .distance {
@@ -69,8 +74,8 @@
 	color: #000000;
 	font-weight: lighter;
 	padding-left: 10px;
-	float: left;
-	display: inline-block;
+	display: block;
+	margin-top: 22px;
 }
 
 
