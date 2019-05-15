@@ -8,16 +8,38 @@ body{
 	background-color: rgba(0, 151, 19, 0.1)
 }
 
+.topnav a {
+	float: left;
+	border: 1px #ccc solid;
+	width: 375px;
+	background-color: #177E21;
+	color: white;
+	padding: 14px 16px;
+	padding-left: 60px;
+	margin-left: 1%;
+	text-decoration: none;
+	font-size: 20px;
+	box-shadow: 0 6px 4px -2px gray; 
+	display: inline-block;
+}
+
+.topnav input{
+	position: absolute;
+	margin-top: 56%;
+	margin-right: 50%;
+	width: 355px;
+}
+
 .map1{
 	object-fit: cover;
 	border-radius: 4px;
-	display: block;
-	box-shadow: 0 10px 4px -2px gray; 
-	position: relative; 
+	
+	box-shadow: 0 5px 4px -2px gray; 
+	
 	margin-bottom: auto;
 }
 
-.container{
+.border{
 	font-family: Roboto;
 	border: 1px #ccc solid;
 	width: 355px;
@@ -99,4 +121,5 @@ body{
 	padding-left: 10px;
 	padding-bottom: 10px;
 }
+
 
