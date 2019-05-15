@@ -3,60 +3,71 @@
 }
 
 body{
-	max-width: 355;
+	max-width: 375px;
+	margin: auto;
 	background-color: rgba(0, 151, 19, 0.1)
 }
+
+.map1{
+	object-fit: cover;
+	width: 375px;
+	border-radius: 4px;
+	display: block;
+	box-shadow: 0 10px 4px -2px gray; 
+	position: relative; 
+	margin-bottom: auto;
+}
+
 .container{
 	font-family: Roboto;
 	border: 1px #ccc solid;
-	padding: 10px;
-	padding-left: 25px;
+	width: 365px;
+	padding: 5px;
+	padding-left: 5px;
 	border-radius: 6px;
-	width: 100%;
-	position: absolute;
 	right: auto;
 	background: white;
-	margin: 10px 15px;
-	margin-top: 56.5%;
-	margin-left: 5%;
+	margin-top: 0%;
+	margin-left: 1.5%;
+	position: absolute; 
 }
 
 .bus-route{
-	font-size: 20px;
-}
-.bus {
-	height: 90px;
-	width: 100%;
-	display: inline-block;
+	font-size: 18px;
+	display: block; 
 }
 
 .bus-number {
+	list-style: none;
 	width: 71px;
 	height: 63px;
 	font-size: 30px;
+	border-radius: 4px;
 	background-color: #519E59;
 	text-align: center;
 	color: #ffffff;
-	padding-top: 10px;
-	margin-right:18px;
+	padding-top: 11px;
+	margin-right:15px;
 	float: left;
+	display: inline-block;
 }
 
 .street {
+	list-style: none;
 	font-size: 17px;
 	color: #000000;
 	display: inline-block;
 }
 
 .arrival {
+	list-style: none;
 	font-size: 14px;
 	color: #959595;
-	padding-left: 88px;
-	display: block;
-	position: absolute;
+	padding-left: 8px;
 }
 
 .eta {
+	list-style: none;
 	float: right;
 	font-size: 14px;
 	width: 30%;
@@ -65,17 +76,21 @@ body{
   	padding-right: 20px;
   	padding-left: 40px;
   	margin-right: 18px;
- 	text-align: right;
- 	display: inline-block;
+ 	text-align: right; 
+ 	position: relative;
+ 	bottom: 38px;
+ 	left: 28px;
 }	
 
 .distance {
+	width: 100%;
+	height: 100%;
+	list-style: none;
 	font-size: 12px;
 	color: #000000;
 	font-weight: lighter;
 	padding-left: 10px;
 	display: block;
-	margin-top: 22px;
+	padding-bottom: 10px;
 }
-
 
