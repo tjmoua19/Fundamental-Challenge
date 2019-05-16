@@ -9,6 +9,46 @@ body{
 	background-color: rgba(0, 151, 19, 0.1)
 }
 
+.service{
+	position: absolute;
+	margin-left: 5px;
+}
+
+.menu{
+	position: absolute;
+	padding-top: 35px;
+	padding-left: 11px;
+}
+
+.heart {
+	position: absolute;
+	margin-top: 35px;
+	padding-left: 18.5%;
+}
+
+.magnifying{
+	position: absolute;
+	padding-left: 21.5%;
+	margin-top: 36px;
+}
+
+.keypad{
+	position: absolute;
+	padding-left: 24.5%;
+	margin-top: 36px;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  position: absolute;
+ }
+
 .topnav a {
 	float: left;
 	border: 1px #ccc solid;
@@ -16,6 +56,7 @@ body{
 	background-color: #177E21;
 	color: white;
 	padding: 14px 16px;
+	padding-top: 32px;
 	padding-left: 60px;
 	margin-left: 1%;
 	text-decoration: none;
@@ -26,24 +67,24 @@ body{
 
 form{
 	position: absolute;
-	margin-top: 57%;
-	margin-left: 22%;
-	width: 100px;
+	margin-top: 24%;
+	margin-left: 8.5%;
 }
+
 
 .map1{
 	object-fit: cover;
 	border-radius: 4px;
 	display: block;
 	box-shadow: 0 5px 4px -2px gray; 
-	position: relative; 
+	position: absolute; 
 	margin-bottom: auto;
 }
 
 .location{
 	position: absolute;
-	margin-top: 52%;
-	margin-left: 30%;
+	margin-top: 22%;
+	margin-left: 11.5%;
 }
 
 .border{
@@ -128,4 +169,3 @@ form{
 	padding-left: 10px;
 	padding-bottom: 10px;
 }
-
