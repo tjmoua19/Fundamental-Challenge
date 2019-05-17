@@ -79,7 +79,7 @@ form{
 	display: block;
 	box-shadow: 0 5px 4px -2px gray; 
 	position: absolute; 
-	margin-top: 4%;
+	margin-top: 10%;
 }
 
 .location{
@@ -92,11 +92,11 @@ form{
 	font-family: Roboto;
 	border: 1px #ccc solid;
 	width: 375px;
+	margin-top: 40%;
 	padding: 5px;
 	border-radius: 6px;
 	background: white;
 	margin-left: 1%;
-	margin-top: 30%;
 }
 
 .bus {
