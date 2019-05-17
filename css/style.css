@@ -79,7 +79,6 @@ form{
 	display: block;
 	box-shadow: 0 5px 4px -2px gray; 
 	position: absolute; 
-	margin-bottom: auto;
 }
 
 .location{
@@ -94,9 +93,8 @@ form{
 	width: 375px;
 	padding: 5px;
 	border-radius: 6px;
-	right: auto;
 	background: white;
-	margin-left: 2.5%;
+	margin-left: 1%;
 }
 
 .bus {
