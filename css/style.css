@@ -3,147 +3,60 @@
 }
 
 body{
-	max-width: 375px;
-	margin: auto;
-	font-family: Roboto; 
+	max-width: 355;
 	background-color: rgba(0, 151, 19, 0.1)
 }
-
-.service{
-	position: absolute;
-	margin-left: 5px;
-}
-
-.menu{
-	position: absolute;
-	padding-top: 35px;
-	padding-left: 11px;
-}
-
-.heart {
-	position: absolute;
-	margin-top: 35px;
-	padding-left: 18.5%;
-}
-
-.magnifying{
-	position: absolute;
-	padding-left: 21.5%;
-	margin-top: 36px;
-}
-
-.keypad{
-	position: absolute;
-	padding-left: 24.5%;
-	margin-top: 36px;
-}
-
-.icon-bar a {
-  float: left;
-  width: 20%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-  position: absolute;
- }
-
-.topnav a {
-	float: left;
-	width: 375px;
-	background-color: #177E21;
-	color: white;
-	padding: 14px 16px;
-	padding-top: 32px;
-	padding-left: 60px;
-	margin-left: 1%;
-	text-decoration: none;
-	font-size: 20px;
-	box-shadow: 0 6px 4px -2px gray; 
-	display: inline-block;
-}
-
-.map2{
-	object-fit: cover;
-	width: 375px;
-	height: 320px;
-	border-radius: 4px;
-	display: block;
-	position: relative; 
-	margin-left: 4px;
-}
-
-.location{
-	position: absolute;
-	margin-top: 22%;
-	margin-left: 11.5%;
-}
-
-
-form{
-	position: absolute;
-	margin-top: 24%;
-	margin-left: 8.5%;
-}
-
-.border{
+.container{
 	font-family: Roboto;
 	border: 1px #ccc solid;
-	width: 355px;
-	padding: 5px;
-	padding-left: 5px;
+	padding: 10px;
+	padding-left: 25px;
 	border-radius: 6px;
-	background: white;
-	margin-left: 1%;
+	width: 100%;
 	position: absolute;
-}
-
-.bus {
-	height: 90px;
-	width: 355px;
-	display: inline-block;
+	right: auto;
+	background: white;
+	margin: 10px 15px;
+	margin-top: 56.5%;
+	margin-left: 5%;
 }
 
 .bus-route{
 	font-size: 20px;
-	margin-left: 5px;
-	margin-bottom: 5px;
+}
+.bus {
+	height: 90px;
+	width: 100%;
+	display: inline-block;
 }
 
 .bus-number {
-	list-style: none;
-	float: left;
 	width: 71px;
 	height: 63px;
 	font-size: 30px;
-	border-radius: 4px;
 	background-color: #519E59;
 	text-align: center;
 	color: #ffffff;
-	padding-top: 18px;
-	margin-right: 15px;
-	margin-left: 5px;
+	padding-top: 10px;
+	margin-right:18px;
+	float: left;
 }
 
 .street {
-	list-style: none;
 	font-size: 17px;
 	color: #000000;
-	margin-top: 7px;
-	margin-bottom: 2px;
+	display: inline-block;
 }
 
 .arrival {
-	list-style: none;
 	font-size: 14px;
 	color: #959595;
-	padding-left: 8px;
-	margin-bottom: 2px;
+	padding-left: 88px;
+	display: block;
+	position: absolute;
 }
 
 .eta {
-	list-style: none;
 	float: right;
 	font-size: 14px;
 	width: 30%;
@@ -152,20 +65,18 @@ form{
   	padding-right: 20px;
   	padding-left: 40px;
   	margin-right: 18px;
- 	text-align: right; 
- 	position: relative;
- 	bottom: 33px;
- 	left: 28px;
- 	margin-right: 24px;
+ 	text-align: right;
+ 	display: inline-block;
 }	
 
 .distance {
-	width: 100%;
-	height: 100%;
-	list-style: none;
 	font-size: 12px;
 	color: #000000;
 	font-weight: lighter;
 	padding-left: 10px;
-	padding-bottom: 10px;
+	display: block;
+	margin-top: 22px;
 }
+
+
+
