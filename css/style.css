@@ -53,6 +53,7 @@ a {
 .image{
 	background-image: url("../images/map2.png");
 	height: 320px;
+	margin-left: 1%;
 	position: relative;
 	text-align: center;
 }
