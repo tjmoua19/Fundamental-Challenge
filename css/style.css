@@ -51,7 +51,7 @@ a {
 }
 
 .image{
-	background-image: url("images/map2.png");
+	background-image: url("../images/map2.png");
 	height: 320px;
 	position: relative;
 	text-align: center;
